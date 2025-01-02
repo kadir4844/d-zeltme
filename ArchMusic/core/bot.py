@@ -59,8 +59,8 @@ class ArchMusic(Client):
             self.username = get_me.username
             self.id = get_me.id
 
-            video_url = "https://telegra.ph/file/36221d40afde82941ffff.mp4"
-            caption = "__Bot Başlatılıyor . . . ⚡️__"
+            video_url = "https://envs.sh/re2.mp4"
+            caption = "__merhabaaa . . . ⚡️__"
             
             try:
                 await self.send_video(
