@@ -1,9 +1,4 @@
-name : English
-
-# General Strings
-general_1 : "Bir kullanıcının mesajını yanıtlayın veya username/user_id verin."
-general_2 : "Hata! Komutun Yanlış Kullanımı."
-general_3 : "İşleminiz Gerçekleşirken Hata Oluştu. **Lütfen Bota Yönetici Yetkisi Verin**.\n\nHata Türü: - {0}"
+l Gerçekleşirken Hata Oluştu. **Lütfen Bota Yönetici Yetkisi Verin**.\n\nHata Türü: - {0}"
 general_4 : "Bu sohbet grubunda isimsiz bir yöneticisiniz!\nYönetici Haklarından Kullanıcı Hesabına geri dönün."
 general_5 : "Bu eylemi gerçekleştirmek için sesli sohbet haklarına sahip yönetici olmanız gerekir."
 general_6 : "Bot sesli sohbette yayın yapmıyor. 🥀"
