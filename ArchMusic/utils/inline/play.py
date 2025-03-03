@@ -2,7 +2,7 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from YukkiMusic.utils.formatters import time_to_seconds
+from ArchMusic.utils.formatters import time_to_seconds
 
 
 def get_progress_bar(percentage):
