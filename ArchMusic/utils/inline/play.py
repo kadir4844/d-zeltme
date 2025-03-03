@@ -1,12 +1,6 @@
-import math
+import random
 
 from pyrogram.types import InlineKeyboardButton
-
-from ArchMusic.utils.formatters import time_to_seconds
-
-
-def get_progress_bar(percentage):
-    umm = math.floor(percentage)
 
     if 0 < umm <= 10:
         return "▰▱▱▱▱▱▱▱▱"
