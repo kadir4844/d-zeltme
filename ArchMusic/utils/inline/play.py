@@ -3,28 +3,7 @@ import random
 from pyrogram.types import InlineKeyboardButton
 
     
-         "▰▱▱▱▱▱▱▱▱"
-    
-         "▰▰▱▱▱▱▱▱▱"
-    
-         "▰▰▰▱▱▱▱▱▱"
-    
-         "▰▰▰▰▱▱▱▱▱"
-    
-         "▰▰▰▰▰▱▱▱▱"
-    
-         "▰▰▰▰▰▰▱▱▱"
-    
-         "▰▰▰▰▰▰▰▱▱"
-    
-         "▰▰▰▰▰▰▰▰▱"
-    
-         "▰▰▰▰▰▰▰▰▰"
-    
-         "▰▰▰▰▰▰▰▰▰▰"
-    
-         "▱▱▱▱▱▱▱▱▱"
-
+         
 
 def stream_markup_timer(_, videoid, chat_id, played, dur):
     played_sec = time_to_seconds(played)
