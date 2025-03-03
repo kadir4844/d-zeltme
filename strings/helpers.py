@@ -1,129 +1,212 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+HELP_1 = """<b><u> eğlenceli komutlar:</b></u>
 
-HELP_1 = """✅**<u>BURDAKİ KOMUTLARI YALNIZCA GRUP ADMİNLERİ KULLANABİLİR:</u>**
+herkes kullanabilir 
 
-**Burdaki Komutları Normal Üyelerin De Kullanabilmesi İçin İstediğiniz Kişinin Mesajını Yanıtlayarak /yetkilendir Yazmanız Yeterlidir.**
+❤️‍🔥  /eros | eros  –  Eros oku atar.
 
-**/duraklat :** Müziği Duraklatır.
-**/devam :** Müziği Devam Ettirir.
-**/atla :** Çalan Müziği Atlar.
-**/dur veya /son :** Müziği Tamamen Durdurur.
-**/karistir :** Sıraya Aldığınız Parçaları Karışık Şekilde Oynatır.
-**/ilerisar :** Müziği İleri Sarar. (Örnek: /ilerisar 15 İle Çalan Müziği 15 Saniye İleri Alabilirsiniz.)
-**/seekback :** Müziği Geri Sarar. (Örnek: /seekback 15 İle Çalan Müziği 15 Saniye Geri Alabilirsiniz.)
-**/restart :** Botu Yeniden Başlatır.
+📝  /burc  –  Burçlarınızı yorumlarım.
 
-✅<u>**Döngü Modu:**</u>
-**/dongu :** Çalan Müziği Döngüye Alıp Tekrar Oynatır. 
-(Örnek: /dongu 3 İle Seste Çalan Müziği 3 Kere Daha Oynatır.)"""
+✨ /mani  –  Mani söylerim.
 
+👋  /slap  –  Birini tokatlayın.
 
-HELP_2 = """✅<u>**OYNATMA KOMUTLARI:**</u>
+🎲  /zar  –  Rastgele bir zar atın.
 
-**/oynat veya /play :** Müziği Oynatmaya Yarar.
-**-Örnek Kullanım:** /oynat şarkı İsmi // Veya Oynatmak İstediğiniz Şarkıyı Yanıtlayarak /oynat Yazabilirsiniz.
-(**Örnek:** /oynat Defkhan Kapak Olsun)
+🎯  /dart  –  Dart atar.
 
-**/voynat veya /vplay :** Videoyu Seste Oynatmaya Yarar.
-**-Örnek Kullanım:** /voynat Video İsmi // Veya Oynatmak İstediğiniz Videoyu Yanıtlayarak /vplay Yazabilirsiniz.
+🎰  /slot  –  Şans slot'u çevirir.
 
-**/bul [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
-(**Örnek:** /bul Defkhan Kapak Olsun)
+⚽️  /futbol  –  Kaleye top atar.
 
+🎳  /bowling  –  Bowling atar.
 
-✅**<u>Oynatma Listeleri:</u>**
-**/playlist :** Oynatma Listenizde Hangi Müziklerin Olduğuna Bakabilirsiniz.
-**/listemisil :** Oynatma Listenizden Silmek İstediğiniz Müziği Seçebilirsiniz.
-**/oynat Komutunu Tek Başına Kullanırsanız:** Oynatma Listeleri Ekranına Ulaşırsınız. """
+🪙  /para  –  Rastgele bir para atın.
 
+👋  /slap  –  Birini tokatlayın.
 
-HELP_3 = """✅<u>**BOT KOMUTLARI**</u>
+🤣  /saka  –  Rastgele bir şaka gönderin.
 
-**/stat :** Bottaki Tüm İstatistikleri Görebilirsiniz. En Çok Müzik Oynatan Gruplar, Kullanıcılar, En Çok Oynatılan Müzikler Ve Daha Fazlası...
+📜  /soz  –  Rastgele bir söz gönderin. 
 
-**/sudolist :** Yardım İstemek İçin Bottaki Sudo Kullanıcılarına Ulaşabilirsiniz.
-
-**/sarkisozu [Müzik Adı] :** Sözlerine Bakmak İstediğiniz Şarkıyı Arayabilirsiniz.
-
-**/bul [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
-
-**/video [Müzik Adı] veya [Youtube Linki] :** Youtubedan İndirmek İstediğiniz Videoyu İndirebilirsiniz.
-(**Örnek:** /videoindir Neşet Ertaş Gönül Dağı)
-
-**/sira :** Sırada Olan Müzikler Listesini Görebilirsiniz."""
-
-HELP_4 = """✅<u>**EKSTRA KOMUTLAR:**</u>
-
-**/start :** Botun Başlatma Panelini Gösterir. 
-
-**/ayarlar :** Ayarlar Menüsüne Ulaşabilirsiniz.
-
-**/yardim :** Botun Yardım Menüsüne Ulaşırsınız.
-
-**/ping :** Ping Süresini CPU Ve RAM Kullanımına Bakabilirsiniz.
+📢  /tts  –  Bir metni sese çevirir.
 """
 
+HELP_2 = """
+<b><u>etiket komutlar :</b></u>
 
-HELP_5 = """🔰**<u>BURASI ÇOK ÖNEMLİ DEĞİL, SADECE BOT YÖNETİCİLERİ İÇİN BİR REHBER:</u>**
+🏷️ /tag - Tek tek etiketler.
 
-/addsudo [Kullanıcı adı veya kullanıcıya yanıt]
-/delsudo [Kullanıcı adı veya kullanıcıya yanıt]
+🏷️ /utag - Çoklu etiketler.
 
-🤖**<u>BOT Komutları:</u>**
-/reboot - Botunuzu yeniden başlatın. 
-/update - Botu Güncelle.
-/speedtest - Sunucu hızlarını kontrol edin
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot, aranan sorguları günlükçü grubuna kaydeder.
-/get_log [Satır Sayısı] - Botunuzun günlüğünü heroku veya vps'den alın. Her ikisi için de işe yarar.
-/autoend [enable|disable] - Kimse dinlemiyorsa 3 dakika sonra Otomatik akışı sonlandır özelliğini etkinleştirin.
+🏷️ /etag - Emoji ile etiketler.
 
-📈**<u>İSTATİSTİK KOMUTLARI:</u>**
-/aktifses - Bottaki aktif sesli sohbetleri kontrol edin.
-/aktifvideo - Bottaki etkin video görüşmelerini kontrol edin.
-/stat - Bot İstatistiklerini Kontrol Edin
+🏷️ /igtag - iyi geceler mesajları ile etiketler.
 
-⚠️**<u>KARA LİSTE SOHBET İŞLEVİ:</u>**
-/blacklistchat veya /engelle [CHAT_ID] - Music Bot'u kullanarak yapılan tüm sohbetleri kara listeye alın
-/whitelistchat [CHAT_ID] - Kara listeye alınmış herhangi bir sohbeti Music Bot kullanarak beyaz listeye alın
-/blacklistedchat veya /engelliler- Kara listeye alınan tüm sohbetleri kontrol edin.
+🏷️ /guntag - günaydın mesajları ile etiketler.
 
-👤**<u>ENGELLEME FONKSİYONU:</u>**
-/block [Kullanıcı adı veya kullanıcıya yanıt] - Kullanıcının bot komutlarını kullanmasını engeller.
-/unblock [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcıyı Bot'un Engellenen Listesinden kaldırma.
-/blockedusers - Engellenen Kullanıcı Listelerini kontrol edin
+🏷️ /btag - Bayrak ile etiketler.
 
-👤**<u>GBAN FONKSİYONU:</u>**
-/gban [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcıyı bot sunucusu sohbetinden yasaklayın ve botunuzu kullanmasını engelleyin.
-/ungban [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcıyı Bot'un yasaklı listesinden kaldırın ve onun botunuzu kullanmasına izin verin
-/gbannedusers - G Yasaklı Kullanıcı Listelerini Kontrol Edin
+🏷️ /sorutag - Sorularla etiketler.
 
-🎥**<u>VİDEO FONKSİYONU:</u>**
-/videolimit [Sohbet Sayısı] - Aynı anda Video Görüşmeleri için izin verilen maksimum Sohbet Sayısını ayarlayın. Varsayılan olarak 3 sohbet.
-/videomode [download|m3u8] - İndirme modu etkinleştirilirse Bot, videoları M3u8 biçiminde oynatmak yerine indirecektir. Varsayılan olarak M3u8'e. M3u8 modunda herhangi bir sorgu oynatılmadığında indirme modunu kullanabilirsiniz.İndirme modu etkinleştirilirse Bot, videoları M3u8 biçiminde oynatmak yerine indirecektir. Varsayılan olarak M3u8'e. M3u8 modunda herhangi bir sorgu oynatılmadığında indirme modunu kullanabilirsiniz.
+🏷️ /ktag - Karakter ile etiketler.
 
-⚡️**<u>ÖZEL BOT İŞLEVİ:</u>**
-/pro [CHAT_ID] - Botunuzu kullanmak için sohbete izin verin.
-/unpro [CHAT_ID] - Bir sohbetin botunuzu kullanmasına izin vermeyin.
-/prolar - Botunuzun izin verilen tüm sohbetlerini kontrol edin.
+🏷️ /stag - Sözlerle etiketler.
 
-🌐**<u>YAYIN FONKSİYONU:</u>**
-/broadcast [Mesaj Gönderme veya Mesaja Cevap Verme] - Herhangi bir mesajı Bot'un Sunulan Sohbetlerine yayınlayın.
+🏷️ /stop - Etiket işlemini bitirir.
+"""
 
-<u>Yayın seçenekleri:</u>
+HELP_3 = """<b><u>ᴀᴅᴍɪɴ ᴋᴏᴍᴜᴛʟᴀʀı :</b></u>
+
+╰☞ /durdur /pause - Akışı duraklatır.
+╰☞ /devam /resume - Akışı devam ettirir.
+╰☞ /son - /end - Akışı Sonlandırır.
+╰☞ /atla /skip - Diğer parça ya atlar.
+╰☞ /ileri - Oynatılan parçayı ileri alır.
+╰☞ /gerial - Oynatılan parçayı geri alır.
+╰☞ /karistir /suffle- Sıraya alınan Parçaları karışık oynatır.
+╰☞ /tekrarla /loop - oynatılan parçayı istediğiniz kadar tekrar eder.
+╰☞ /reload - Admin Önbelleğini yeniler.
+/reboot - Botu yeniden başlatır.
+"""
+
+HELP_4 = """
+<b><u>ʏᴇᴛᴋɪʟᴇɴᴅɪʀᴍᴇ ᴋᴏᴍᴜᴛʟᴀʀı :</b></u>
+
+ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
+
+╰☞ /yetkiver /auth - Grubunuzda yetkisiz üyeye yetki vererek botu kullandırabilirsiz.
+╰☞ /yetkial /unauth - Grubunuzdaki botu kullanan yetkisiz üyeden bot yetkisini alır.
+╰☞ /yetikiliste /authuser - Grubunuzdaki botu kullanan yetkili listesini açar.
+"""
+
+HELP_5 = """
+<b><u>REKLAM KOMUTLARI</u></b>
+🔸/reklam [Mesaj veya Mesaja Cevap] - Herhangi bir mesajı Bot'un Sunulan Sohbetlerine yayınlayın.
+
+<u>yayın seçenekleri:</u>
 **-pin** : Bu, mesajınızı sabitleyecektir 
 **-pinloud** : Bu, mesajınızı yüksek sesli bildirimle sabitleyecektir
 **-user** : Bu, mesajınızı botunuzu başlatan kullanıcılara yayınlayacaktır.
 **-assistant** : Bu, mesajınızı botunuzun asistan hesabından yayınlayacaktır.
-**-nobot** : Bu, botunuzu mesaj yayınlamamaya zorlayacaktır
+**-nobot** : Bu, botunuzu mesaj yayınlamamaya zorlar
 
-**Örnek:** `/broadcast -user -assistant -pin TestGöktuğ`
+**Örnek:** `/reklam -user -assistant -pin MERHABA ` """
 
+HELP_6 = """<u><b>ʙʟᴀᴄᴋʟɪsᴛ ᴋᴏᴍᴜᴛʟᴀʀı :</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
+
+ʀᴇsᴛʀɪᴄᴛ sʜɪᴛ ᴄʜᴀᴛs ᴛᴏ ᴜsᴇ ᴏᴜʀ ᴘʀᴇᴄɪᴏᴜs ʙᴏᴛ.
+
+/blacklistchat [SOHBET KİMLİĞİ] : BOT KULLANARAK SOHBETLERİ KARA LİSTE EDİN..
+/whitelistchat [SOHBET KİMLİĞİ] : KARA LİSTELENEN SOHBETİ BEYAZ LİSTEYE ALIN..
+/blacklistedchat : ᴋᴀʀᴀ ʟɪsᴛᴇʏᴇ ᴀʟıɴᴀɴ ɢʀᴜᴘʟᴀʀ.
+"""
+
+HELP_7 = """
+<u><b>ʙʟᴏᴄᴋ ᴜsᴇʀs:</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
+
+sᴛᴀʀᴛs ɪɢɴᴏʀɪɴɢ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴜsᴇʀ, sᴏ ᴛʜᴀᴛ ʜᴇ ᴄᴀɴ'ᴛ ᴜsᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
+
+🔸/block [Kullanıcı adı veya bir kullanıcıya yanıt] - Bir kullanıcının bot komutlarını kullanmasını engeller.
+🔸/unblock [Kullanıcı adı veya bir kullanıcıya yanıt] - Bir kullanıcıyı Bot'un Engellenenler Listesinden çıkarın.
+🔸/blocklist - Engellenen Kullanıcı Listelerini Kontrol Edin
+"""
+
+HELP_8 = """
+<u><b>ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:</b></u>
+
+ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ ɪɴ ᴄʜᴀɴɴᴇʟ.
+
+/cplay - /coynat: sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴀᴜᴅɪᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+/cvplay - /cvoynat: sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+/cplayforce or /cvplayforce : sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
+
+/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
+"""
+
+HELP_9 = """
+<u><b>ɢʟᴏʙᴀʟ ʙᴀɴ ғᴇᴀᴛᴜʀᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+
+🔸/gban [Kullanıcı adı veya bir kullanıcıya yanıt] - Botun sunduğu sohbetten bir kullanıcıyı Gban ve botunuzu kullanmasını engelleyin.
+🔸/ungban [Kullanıcı adı veya bir kullanıcıya yanıt] - Bir kullanıcıyı Bot'un gbanlı Listesinden çıkarın ve onun botunuzu kullanmasına izin verin
+🔸/gbannedusers - Gbanlı Kullanıcı Listelerini Kontrol Edin
+"""
+
+HELP_10 = """
+<b><u>ʟᴏᴏᴘ sᴛʀᴇᴀᴍ :</b></u>
+
+<b>sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴘ</b>
+
+/tekrar - /loop [enable/disable] : ᴇɴᴀʙʟᴇs/ᴅɪsᴀʙʟᴇs ᴛᴇᴋʀᴀʀʟᴀɴᴍᴀʏı ᴋᴀᴘᴀᴛıᴘ ᴀᴄ̧ᴀʙɪʟɪʀsɪɴ
+/tekrar - /loop [1, 2, 3, ...] : ɢɪʀᴅɪɢ̆ɪɴɪᴢ ʀᴀᴋᴀᴍ ᴋᴀᴅᴀʀ ᴘᴀʀᴄ̧ᴀ ᴛᴇʀᴋᴀʀʟᴀɴıʀ
+♨️🔸(örneğin: /döngü 4 - Parçayı 4 kez tekrarlar.)
+"""
+
+HELP_11 = """
+<u><b>ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+
+
+🔸/reboot - Botunuzu yeniden başlatın. 
+🔸/update - Botu Güncelle.
+🔸/speedtest - Sunucu hızlarını kontrol edin
+🔸/bakim [enable / disable] 
+🔸/logger [enable / disable] - Bot, logger grubunda aranan sorguları günlüğe kaydeder.
+🔸/get_log [Hat Sayısı] - Get log of your bot from heroku or vps. Works for both.
+🔸/autoend [enable|disable] - Hiç kimse dinlemiyorsa 3 dakika sonra otomatik akışı sonlandır özelliğini etkinleştirin.
+
+"""
+
+HELP_12 = """
+<b><u>ᴘɪɴɢ & sᴛᴀᴛs :</b></u>
+
+/start : Müzik botunu başlatırᴛ.
+/help : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+/ping : sʜᴏᴡs ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+🔸/aktifses - Botta aktif sesli sohbetleri kontrol edin.
+🔸/aktifvideo - Botta aktif görüntülü aramaları kontrol edin.
+🔸/stats - Bot İstatistiklerini Kontrol Edin.
+
+"""
+
+HELP_13 = """
+<u><b>ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+
+<b>v :</b> sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
+<b>force :</b> sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
+
+▪️ /voynat - Video Oynatır.
+/oynat /voynat /play - /vplay : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+♨️🔸 /oynat komutu aynı zamanda canlı yayında destekler.(örnek: /oynat kralfm canlı)
+/playforce ᴏʀ /vplayforce : Sesli sohbette çalınan parçayı durdurur ve sırayı bozmadan temizlemeden aranan parçayı anında çalmaya başlar.
+"""
+
+HELP_14 = """
+<b><u>sʜᴜғғʟᴇ ᴏ̨ᴜᴇᴜᴇ :</b></u>
+
+/kariştir - /shuffle : Sıradaki parçaları karışık oynatır.
+/sira : Mevcut çalma lsitesini gösterir.
+"""
+
+HELP_15 = """
+<b><u>sᴇᴇᴋ sᴛʀᴇᴀᴍ :</b></u>
+
+/ileri [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : şᴀʀᴋıʏı ʙᴇʟɪʀʟᴇᴅɪɢ̆ɪɴɪᴢ sᴜ̈ʀᴇ ᴋᴀᴅᴀʀ ɪʟᴇʀɪ ᴀʟıʀ,
+♨️🔸(örneğin: /ileri 30 - parçayı 30 saniye ileri alır)
+/geri [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : şᴀʀᴋıʏı ʙᴇʟɪʀʟᴇᴅɪɢ̆ɪɴɪᴢ sᴜ̈ʀᴇ ᴋᴀᴅᴀʀ ɢᴇʀɪ ᴀʟıʀ
+♨️🔸(örneğin: /geri 30 - parçayı 30 saniye geriye alır)
+"""
+
+HELP_16 = """
+<b><u>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ</b></u>
+
+/indir-  - /indir [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] : ɪsᴛᴇᴅɪɢ̆ɪɴɪᴢ şᴀʀᴋıʏı ᴍᴘ𝟹 ᴏʟᴀʀᴀᴋ ɪɴᴅɪʀɪʀ.
+
+"""
+
+HELP_17 = """
+<b><u>sᴘᴇᴇᴅ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+
+ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ᴏғ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ. [ᴀᴅᴍɪɴs ᴏɴʟʏ]
+
+/speed or /playback : ɢʀᴜᴘᴛᴀ sᴇsʟɪᴅᴇ ᴄ̧ᴀʟᴀɴ şᴀʀᴋıʏı ʜıᴢʟᴀɴᴅıʀıʀ.
+/cspeed or /cplayback : ᴋᴀɴᴀʟᴅᴀ sᴇsʟɪᴅᴇ ᴄ̧ᴀʟᴀɴ şᴀʀᴋıʏı ʜıᴢʟᴀɴᴅıʀıʀ.
 """
