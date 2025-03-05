@@ -80,3 +80,13 @@ def help_back_markup(_):
     return upl
 
 
+def private_help_panel(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_1"],
+                url=f"https://t.me/{app.username}?start=help",
+            ),
+        ],
+    ]
+    return buttons
