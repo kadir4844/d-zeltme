@@ -79,11 +79,9 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 📢  /tts  –  Bir metni sese çevirir.
 ◇──────────────────────────◇
 """
-HELP_5 = """<b><u>etiket komutlannr :</b></u>
-botlarrr
-"""
 
-HELP_6 = """<b><u>etiket komutlar :</b></u>
+
+HELP_5 = """<b><u>etiket komutlar :</b></u>
 ╔─━━━━━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━━━━━━━─╗
 
 
