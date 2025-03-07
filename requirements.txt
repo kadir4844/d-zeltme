@@ -1,3 +1,4 @@
+kurigram==2.1.39
 numpy
 aiofiles
 aiohttp
@@ -14,7 +15,7 @@ pillow
 psutil
 pykeyboard
 py-tgcalls==0.9.7
-kurigram==2.1.39
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
 python-dotenv
 pyyaml
 requests
