@@ -45,13 +45,13 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","geceexpresbot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","cerenmusicbot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5901320319").split())
+    map(int, getenv("OWNER_ID", "7739088705").split())
 
 )  # Input type must be interger
 
@@ -83,12 +83,12 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
- # Example:- https://t.me/birtutammsevgi
+    "SUPPORT_CHANNEL", "https://t.me/botdestekhelp")
+ # Example:- https://t.me/botdestekhelp
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/kumsalmuzikk")  # Example:- https://t.me/whiskeyclubb
+    "SUPPORT_GROUP", "https://t.me/botdestekhelp")  # Example:- https://t.me/botdestekhelp
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
