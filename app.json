@@ -15,12 +15,12 @@
     "env": {
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "your_api_id_here",
+            "value": "20824282",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "your_api_hash_here",
+            "value": "5c49d99b5bb9e41c9b8ada4f826989ef",
             "required": true
         },
         "AUTO_LEAVING_ASSISTANT": {
@@ -35,7 +35,7 @@
         },
         "MONGO_DB_URI": {
             "description": "Get a mongodb url from https://cloud.mongodb.com. You can leave it blank if you want, bot will use ArchMusic's database for you.",
-            "value": "",
+            "value": "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza",
             "required": true
         },
         "MUSIC_BOT_NAME": {
